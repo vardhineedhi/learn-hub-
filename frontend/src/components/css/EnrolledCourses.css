@@ -1,0 +1,49 @@
+/* EnrolledCourses.css – Dark Theme */
+
+.enrolled-wrapper {
+  background: #2d2d44;
+  color: #e0e0e0;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+.enrolled-heading {
+  color: #00d1ff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.MuiPaper-root {
+  background-color: #1e1e2f !important;
+}
+
+.MuiTableCell-root {
+  color: #e0e0e0 !important;
+  border-bottom: 1px solid #444 !important;
+}
+
+.MuiTableCell-head {
+  background-color: #00d1ff !important;
+  color: #101020 !important;
+  font-weight: bold !important;
+}
+
+.MuiButton-containedSuccess {
+  background-color: #00c292 !important;
+  color: #fff !important;
+}
+.MuiButton-containedSuccess:hover {
+  background-color: #00e6aa !important;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .MuiTableCell-root {
+    font-size: 0.85rem !important;
+  }
+  .MuiButton-root {
+    font-size: 0.75rem !important;
+  }
+}

@@ -1,0 +1,39 @@
+/* Dashboard.css – Dark Theme */
+
+.dashboard-wrapper {
+  /* same gradient background used on auth pages */
+  background: linear-gradient(to right, #1e1e2f, #2a2a40);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-container {
+  background: #2d2d44; /* deep card surface */
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  min-height: 80vh;
+  padding: 2rem;
+  margin: 1rem 0 2rem;
+  color: #e0e0e0; /* light text for dark bg */
+}
+
+/* Scrollbar (optional, nice touch on long course lists) */
+.dashboard-container::-webkit-scrollbar {
+  width: 8px;
+}
+.dashboard-container::-webkit-scrollbar-thumb {
+  background: #444c70;
+  border-radius: 4px;
+}
+.dashboard-container::-webkit-scrollbar-thumb:hover {
+  background: #5a6290;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+}
