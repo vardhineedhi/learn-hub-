@@ -120,16 +120,16 @@ Meanwhile, **John**, an experienced instructor, uploads new courses, manages enr
 ---
 
 ## 🌐 Live Preview
-*(Add your deployment link here)*  
-Example: https://learn-hub-9.onrender.com
+
+ https://learn-hub-9.onrender.com
 
 ---
 
 
 
 ## 🎥 Video Demo
-*(Add your demo video link here when available)*  
-Example: [Watch Demo](#)
+
+https://drive.google.com/file/d/1jO4-BxuhBMGO-lnzasqLhn1Z3uUDah4y/view?usp=sharing
 
 ---
 
