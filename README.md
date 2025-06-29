@@ -20,7 +20,7 @@ Welcome to **LearnHub**, an innovative online learning platform built with the *
 
 ### **Certification**
 - Digital certificates awarded upon successful course completion.
-
+- 
 ### **Self-Paced Learning**
 - Flexible, on-demand learning that fits individual schedules.
 
