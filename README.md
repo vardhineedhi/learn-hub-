@@ -130,14 +130,7 @@ Meanwhile, **John**, an experienced instructor, uploads new courses, manages enr
 ## 🎥 Video Demo
 
 https://drive.google.com/file/d/1jO4-BxuhBMGO-lnzasqLhn1Z3uUDah4y/view?usp=sharing
-
----
-
-## 📸 Screenshots
-*(You can upload your screenshots and use these links)*
-
-
----
+--
 
 ## 📦 Installation & Setup
 
@@ -150,4 +143,4 @@ npm run dev
 ### 👉 Run Backend
 ```bash
 npm install
-npm run start:dev
+npm start
