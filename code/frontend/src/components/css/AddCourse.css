@@ -1,0 +1,113 @@
+/* AddCourse.css – Dark Theme */
+
+/* ---------- outer card ---------- */
+.add-course-form {
+  background: #2d2d44 !important;
+  color: #e0e0e0 !important;
+  border-radius: 1rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.65);
+  max-width: 950px;
+  margin: 1.5rem auto;
+  padding: 2rem 1.75rem;
+}
+
+/* ---------- headings ---------- */
+.add-course-form h3 {
+  color: #00d1ff;
+  font-weight: 700;
+}
+
+/* ---------- form controls ---------- */
+.add-course-form .form-control,
+.add-course-form .form-select {
+  background: #1e1e2f;
+  color: #ffffff;
+  border: 1px solid #444;
+  border-radius: 0.5rem;
+}
+
+.add-course-form .form-control:focus,
+.add-course-form .form-select:focus {
+  border-color: #00d1ff;
+  box-shadow: 0 0 0 0.15rem rgba(0, 209, 255, 0.25);
+}
+
+/* ---------- section boxes ---------- */
+.section-box {
+  position: relative;
+  background: #22243a;
+  border: 1px solid #333a5a;
+  border-radius: 0.75rem;
+  padding: 1rem 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.remove-section-btn {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.5rem;
+  color: #ff5f6d;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.remove-section-btn:hover {
+  color: #ff808c;
+  text-decoration: none;
+}
+
+/* ---------- buttons ---------- */
+.add-section-btn {
+  color: #00d1ff;
+  border-color: #00d1ff;
+}
+
+.add-section-btn:hover {
+  background: #00d1ff;
+  color: #101020;
+}
+
+.add-course-form .btn-primary {
+  background: #00c292;
+  border-color: #00c292;
+}
+
+.add-course-form .btn-primary:hover {
+  background: #00e6aa;
+  border-color: #00e6aa;
+}
+
+/* ---------- responsive tweaks ---------- */
+@media (max-width: 768px) {
+  .add-course-form {
+    padding: 1.25rem;
+  }
+  .section-box {
+    padding: 0.9rem;
+  }
+  .remove-section-btn {
+    top: 0.15rem;
+    right: 0.4rem;
+  }
+}
+
+/* === Placeholder fix for dark theme === */
+.add-course-form ::placeholder {
+  color: #bdbdbd !important;
+  opacity: 1; /* Override default opacity */
+}
+
+.add-course-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bdbdbd !important;
+}
+
+.add-course-form ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #bdbdbd !important;
+}
+
+.add-course-form textarea.form-control {
+  background-color: #1e1e2f;
+  color: #ffffff;
+}

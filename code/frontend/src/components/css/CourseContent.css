@@ -1,0 +1,136 @@
+/* CourseContent.css – Dark Theme */
+
+/* ---- wrapper layout ---- */
+.course-content {
+  display: flex;
+  gap: 1.25rem;
+  margin: 1.5rem auto;
+  max-width: 1400px;
+  padding: 0 1rem;
+}
+
+/* accordion panel (left) */
+.course-section {
+  flex: 1 1 50%;
+  background: #2d2d44;
+  border-radius: 1rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+  overflow: hidden;
+}
+
+/* accordion header/body */
+.accordion-button {
+  background: #1e1e2f !important;
+  color: #e0e0e0 !important;
+}
+.accordion-button:not(.collapsed) {
+  background: #22243a !important;
+  color: #00d1ff !important;
+}
+.accordion-body {
+  background: #22243a;
+  color: #d1d1d1;
+}
+
+/* video player box (right) */
+.course-video {
+  flex: 1 1 50%;
+  min-height: 360px;
+  background: #1e1e2f;
+  border-radius: 1rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* play & complete buttons */
+.course-section .MuiButton-root,
+.course-section button.btn {
+  margin-top: 0.5rem;
+}
+.course-section .MuiButton-root {
+  color: #00d1ff !important;
+  border-color: #00d1ff !important;
+}
+.course-section .MuiButton-root:hover {
+  background: #00d1ff !important;
+  color: #101020 !important;
+}
+.course-section button.btn-success {
+  background: #00c292;
+  border-color: #00c292;
+}
+.course-section button.btn-success:hover {
+  background: #00e6aa;
+  border-color: #00e6aa;
+}
+
+/* certificate modal */
+.modal-content {
+  background: #2d2d44;
+  color: #e0e0e0;
+  border-radius: 0.75rem;
+}
+.modal-header,
+.modal-footer {
+  border-color: #444;
+}
+.modal-title {
+  color: #00d1ff;
+}
+
+/* certificate preview */
+.certificate {
+  margin: 1.5rem auto;
+  padding: 1.25rem;
+  border: 2px dashed #00d1ff;
+  border-radius: 0.75rem;
+  max-width: 550px;
+  background: #1e1e2f;
+}
+.certificate h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  color: #00d1ff;
+}
+.certificate h2,
+.certificate h3 {
+  margin: 0.3rem 0;
+  font-weight: 600;
+}
+.certificate .date {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* ---- responsiveness ---- */
+@media (max-width: 992px) {
+  .course-content {
+    flex-direction: column;
+  }
+  .course-section,
+  .course-video {
+    flex: none;
+    width: 100%;
+    length: 50%;
+  }
+  .course-video {
+    min-height: 260px;
+  }
+}
+
+@media (max-width: 576px) {
+  .accordion-button {
+    font-size: 0.9rem;
+  }
+  .certificate h1 {
+    font-size: 1.2rem;
+  }
+}
+
+.course-content-wrapper {
+  background-color: #181a2a; /* deep dark navy-blue */
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
