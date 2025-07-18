@@ -51,7 +51,7 @@ npm run dev
 ###  👉👉👉👉👉👉👉 .env
 ```bash
 
-MONGO_DB = mongodb://localhost:27017/
-JWT_KEY = my-secret-key-123-456-$
+MONGO_DB =  your mongodb url
+JWT_KEY = your jwt key
 PORT = 8000
 ```
